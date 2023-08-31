@@ -1,0 +1,15 @@
+
+  <div class="col-4 py-2">
+    <div class="card" style="width: 18rem;">
+    <div class="card-header">
+    <%= movie.name %>
+    </div>
+      <div class="card-body">        
+        <%= link_to "Ver Pelicula", movie, class: "btn btn-outline-primary mb-3" %>
+        <%= button_to "Eliminar Pelicula", @movie, method: :delete, class: "btn btn-outline-primary mb-3" %>
+      <div >
+  
+</div>
+      </div>
+    </div>
+  </div>

@@ -1,0 +1,11 @@
+<section class= "container text-center">
+<h1>Editar Pelicula</h1>
+
+<%= render "form", movie: @movie %>
+
+</section>
+
+<div>
+  <%= link_to "Ver Pelicula", @movie, class: "btn btn-primary" %> 
+  <%= link_to "Volver", movies_path, class: "btn btn-primary" %>
+</div>

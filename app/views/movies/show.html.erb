@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+<section class="container-fluid text-center">
+<%= render @movie %>
+<div class="d-grid gap-2 d-md-block mb-3">
+  <%= link_to "Editar Pelicula", edit_movie_path(@movie), class: "btn btn-primary" %> 
+  <%= link_to "Volver", movies_path, class: "btn btn-primary" %>
+</div>
+
+
+</section>

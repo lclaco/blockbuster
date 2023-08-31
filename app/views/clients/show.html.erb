@@ -1,0 +1,23 @@
+<p style="color: green"><%= notice %></p>
+<div id="clients">
+    <table class="table table-bordered">
+      <thead class = "table-primary">
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Nombre</th>
+          <th scope="col">Edad</th>
+          <th scope="col">Pelicula</th>
+          <th scope="col">VER</th>
+          <th scope="col">EDITAR</th>
+          <th scope="col">ELIMINAR</th>
+        </tr>
+      </thead>
+      <tbody>
+<%= render @client %>
+</tbody>
+    </table>
+  </div>
+<div>
+  <%= link_to "Volver", clients_path,class:"btn btn-primary" %>
+
+</div>

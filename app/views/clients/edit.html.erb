@@ -1,0 +1,11 @@
+<section class= "container text-center">
+<h1>Editar Cliente</h1>
+
+<%= render "form", client: @client %>
+
+</section>
+
+<div>
+  <%= link_to "Ver cliente", @client,class:"btn btn-primary" %> 
+  <%= link_to "Volver", clients_path,class:"btn btn-primary" %>
+</div>
