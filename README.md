@@ -27,6 +27,6 @@ Toda aplicación debe ser atractiva a la vista.
 5. Hacer deploy a heroku.
 
 
-###Consideraciones y recomendaciones
-● Utiliza como ejemplo la guía de ejercicios Relaciones 1 a N en los modelos.
-● Gem Faker
+### Consideraciones y recomendaciones
+* Utiliza como ejemplo la guía de ejercicios Relaciones 1 a N en los modelos.
+* Gem Faker
