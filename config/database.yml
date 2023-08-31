@@ -26,7 +26,7 @@ development:
   adapter: postgresql
   database: BlockBuster_development
   username: postgres
-  password: Leo*15041985
+  password: 
   host: localhost
   port: 5432
   # The specified database role being used to connect to postgres.
